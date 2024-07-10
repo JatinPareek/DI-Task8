@@ -9,7 +9,7 @@ const NavBar = () => {
     <AppBar position="static" sx={{ backgroundColor: "#172029" }}>
       <Toolbar>
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
-          DI 9 temporary nav bar
+          DI Task 8 temporary nav bar
         </Typography>
         <Box sx={{ display: "flex", gap: 2 }}>
           <Button color="inherit" component={Link} to="/skills">
