@@ -195,7 +195,7 @@ const Tickets = () => {
         <Button
           variant="text"
           sx={{
-            marginLeft: "580px",
+            marginLeft: "550px",
             textTransform: "none",
             borderLeft: "1px solid #eef2f6",
             borderRadius: 0,
