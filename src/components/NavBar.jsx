@@ -12,6 +12,9 @@ const NavBar = () => {
           DI Task 8 temporary nav bar
         </Typography>
         <Box sx={{ display: "flex", gap: 2 }}>
+          <Button color="inherit" component={Link} to="/tickets">
+            Tickets
+          </Button>
           <Button color="inherit" component={Link} to="/skills">
             Skills
           </Button>

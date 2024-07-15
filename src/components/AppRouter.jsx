@@ -4,6 +4,8 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { CssBaseline, ThemeProvider, createTheme } from "@mui/material";
 import NavBar from "./NavBar";
+import Tickets from "./Tickets";
+import TicketsPage from "./TicketsPage";
 import SkillsPage from "./SkillsPage";
 import EventsPage from "./EventsPage";
 import ContractsTable from "./ContractsTable";
@@ -18,6 +20,7 @@ const AppRouter = () => {
       <Router>
         <NavBar />
         <Routes>
+          <Route path="/tickets" element={<Tickets />} />
           <Route path="/skills" element={<SkillsPage />} />
           <Route path="/events" element={<EventsPage />} />
           <Route path="/contracts" element={<ContractsTable />} />
